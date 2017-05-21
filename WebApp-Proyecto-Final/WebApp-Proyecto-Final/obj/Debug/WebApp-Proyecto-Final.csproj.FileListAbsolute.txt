@@ -1,0 +1,5 @@
+C:\Users\Dann\Documents\tareas\PWeb\WebApp-Proyecto-Final\WebApp-Proyecto-Final\bin\WebApp-Proyecto-Final.dll
+C:\Users\Dann\Documents\tareas\PWeb\WebApp-Proyecto-Final\WebApp-Proyecto-Final\bin\WebApp-Proyecto-Final.pdb
+C:\Users\Dann\Documents\tareas\PWeb\WebApp-Proyecto-Final\WebApp-Proyecto-Final\obj\Debug\WebApp-Proyecto-Final.csprojResolveAssemblyReference.cache
+C:\Users\Dann\Documents\tareas\PWeb\WebApp-Proyecto-Final\WebApp-Proyecto-Final\obj\Debug\WebApp-Proyecto-Final.dll
+C:\Users\Dann\Documents\tareas\PWeb\WebApp-Proyecto-Final\WebApp-Proyecto-Final\obj\Debug\WebApp-Proyecto-Final.pdb
