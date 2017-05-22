@@ -4,9 +4,7 @@
         <asp:MenuItem Text="Inicio" NavigateUrl="~/homePage.aspx"></asp:MenuItem>
         <asp:MenuItem Text="Productos">
             <asp:MenuItem Text="Buscar" NavigateUrl="~/allProducts.aspx"></asp:MenuItem>
-            <asp:MenuItem Text="Agregar Producto" NavigateUrl="~/ModdProducto.aspx"></asp:MenuItem>
-            <asp:MenuItem Text="Modificar Productos" NavigateUrl="~/ModdProducto.aspx"></asp:MenuItem>
-            <asp:MenuItem Text="Eliminar Productos" NavigateUrl="~/ModdProducto.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Control de Productos" NavigateUrl="~/ModdProducto.aspx"></asp:MenuItem>
             <asp:MenuItem Text="Todos los productos" NavigateUrl="~/allProducts.aspx"></asp:MenuItem>
             <asp:MenuItem Text="Categorías" NavigateUrl="~/categoriaProducto.aspx">
                 <asp:MenuItem Text="Equipo/PC">

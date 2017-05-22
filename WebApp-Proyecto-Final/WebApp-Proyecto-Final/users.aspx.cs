@@ -51,7 +51,7 @@ namespace WebApp_Proyecto_Final
             txt_ciudad.Text,
             txt_pais.Text);
 
-            if (conectionDB.insert_NewUSer(query))
+            if (conectionDB.insert_NewThingInDB(query))
             {
                 ClientScript.RegisterStartupScript(GetType(),"example","alert('Usuario creado Exitosamente');",true);
             }

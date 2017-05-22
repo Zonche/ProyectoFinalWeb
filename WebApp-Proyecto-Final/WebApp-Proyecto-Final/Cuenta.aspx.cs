@@ -32,7 +32,7 @@ namespace WebApp_Proyecto_Final
             txt_ciudad.Text,
             txt_pais.Text);
 
-            if (conectionToDB.insert_NewUSer(query))
+            if (conectionToDB.insert_NewThingInDB(query))
             {
                 ClientScript.RegisterStartupScript(GetType(), "example", "confirm('Usuario creado Exitosamente');", true);
                 Response.Redirect("Login.aspx");

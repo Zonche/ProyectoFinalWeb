@@ -16,6 +16,6 @@
         <asp:Button ID="btn_buscar" runat="server" Text="Buscar" />
     </div>
     <div class="dashboard">
-        <asp:GridView ID="gv_allProductos" runat="server"></asp:GridView>
+        <asp:GridView ID="gv_allProductos" runat="server" AutoGenerateSelectButton="True"></asp:GridView>
     </div>
 </asp:Content>

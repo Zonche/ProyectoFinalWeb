@@ -22,6 +22,33 @@ namespace WebApp_Proyecto_Final {
         protected global::WebApp_Proyecto_Final.menuDashBoard menuDashBoard;
         
         /// <summary>
+        /// rb_addProducto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rb_addProducto;
+        
+        /// <summary>
+        /// rb_moddProducto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rb_moddProducto;
+        
+        /// <summary>
+        /// rb_deleteProducto control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rb_deleteProducto;
+        
+        /// <summary>
         /// Label4 control.
         /// </summary>
         /// <remarks>
@@ -65,6 +92,15 @@ namespace WebApp_Proyecto_Final {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_search;
+        
+        /// <summary>
+        /// lb_return control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb_return;
         
         /// <summary>
         /// Label2 control.

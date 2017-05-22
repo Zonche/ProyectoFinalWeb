@@ -75,7 +75,13 @@ namespace WebApp_Proyecto_Final.Utilidades.Class
             return respuesta;
         }
 
-        public bool insert_NewUSer(string query)
+
+        /// <summary>
+        /// Método para usar con un query de INSERT
+        /// </summary>
+        /// <param name="query">string con el query</param>
+        /// <returns>Regresa un true o un false</returns>
+        public bool insert_NewThingInDB(string query)
         {
             SqlCommand cmd = new SqlCommand(query, conectionSQL);
             bool respuesta = false;
@@ -94,7 +100,13 @@ namespace WebApp_Proyecto_Final.Utilidades.Class
             }
         }
 
-
+        /// <summary>
+        /// Metodo de una consulta simple con una columna en particular
+        /// </summary>
+        /// <param name="query">string con la consulta</param>
+        /// <param name="cosaABuscar">Objecto que se desea encontrar</param>
+        /// <param name="columnaABuscar">Columna en donde se desea buscar</param>
+        /// <returns></returns>
         public bool consultaWhitOnlyOneObject(string query, string cosaABuscar, string columnaABuscar)
         {
             SqlCommand cmd = new SqlCommand(query, conectionSQL);
@@ -110,6 +122,21 @@ namespace WebApp_Proyecto_Final.Utilidades.Class
             }
             conectionSQL.Close();
             return respuesta;
+        }
+
+
+        public List<string> obtener_DatosFromDB(string query)
+        {
+            List<string> listaDeDatos = new List<string>();
+            SqlCommand cmd = new SqlCommand(query,conectionSQL);
+            conectionSQL.Open();
+            sqlDR = cmd.ExecuteReader();
+            while(sqlDR.Read())
+            {
+                listaDeDatos.Add(sqlDR.ToString());
+            }
+            conectionSQL.Close();
+            return listaDeDatos;
         }
     }
 }
